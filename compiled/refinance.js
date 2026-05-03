@@ -1953,11 +1953,11 @@ function CalcPillars({
       width: 22,
       height: 22,
       backgroundColor: CALC_ACCENT,
-      máskImage: `url(images-bricks-calc/${p.icon})`,
+      maskImage: `url(images-bricks-calc/${p.icon})`,
       WebkitMaskImage: `url(images-bricks-calc/${p.icon})`,
-      máskSize: 'contain',
+      maskSize: 'contain',
       WebkitMaskSize: 'contain',
-      máskRepeat: 'no-repeat',
+      maskRepeat: 'no-repeat',
       WebkitMaskRepeat: 'no-repeat'
     }
   })), React.createElement("div", {
@@ -2016,11 +2016,11 @@ function CalcFeatureSplit({
       width: 20,
       height: 20,
       backgroundColor: CALC_ACCENT,
-      máskImage: `url(images-bricks-calc/${feature.icon})`,
+      maskImage: `url(images-bricks-calc/${feature.icon})`,
       WebkitMaskImage: `url(images-bricks-calc/${feature.icon})`,
-      máskSize: 'contain',
+      maskSize: 'contain',
       WebkitMaskSize: 'contain',
-      máskRepeat: 'no-repeat',
+      maskRepeat: 'no-repeat',
       WebkitMaskRepeat: 'no-repeat'
     }
   }), React.createElement("div", {
@@ -2592,12 +2592,12 @@ function App() {
   }), React.createElement(CalcFeatureSplit, {
     feature: calcT.feature_prepay,
     reverse: true,
-    shotSrc: shotPrepay,
+    shotSrc: shot2,
     theme: effectiveTheme
   }), React.createElement(CalcFeatureSplit, {
     feature: calcT.feature2,
     reverse: false,
-    shotSrc: shot2,
+    shotSrc: shotPrepay,
     theme: effectiveTheme
   }), React.createElement(CalcTestimonials, {
     t: calcT
